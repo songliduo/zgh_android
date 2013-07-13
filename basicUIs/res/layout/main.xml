@@ -5,9 +5,9 @@
               android:layout_height="fill_parent"
         >
     <TextView
-            android:layout_width="310dp"
+            android:layout_width="441dp"
             android:layout_height="64dp"
-            android:text="菜单"
+            android:text="菜单  babyduncan"
             android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:textColor="#aeff23"
             android:textSize="@android:dimen/app_icon_size"/>
 
