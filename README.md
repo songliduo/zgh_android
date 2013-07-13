@@ -1,4 +1,4 @@
 android
 =======
 
-对安卓的学习和研究
+a group of android ui and android components .
