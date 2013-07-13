@@ -34,5 +34,64 @@
                 android:textSize="@android:dimen/app_icon_size"/>
     </LinearLayout>
 
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:text="     "
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/textView1"
+                android:singleLine="false"
+                android:textSize="@android:dimen/app_icon_size"
+                android:layout_gravity="center"/>
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="     "
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:id="@+id/textView2"
+                android:textSize="@android:dimen/app_icon_size"
+                android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="42dp"
+                android:layout_height="48dp"
+                android:text="__"
+                android:id="@+id/textView3"
+                android:textSize="40dp"
+                android:layout_gravity="center"/>
+
+        <Button
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:text="计算"
+                android:id="@+id/calc"
+                android:layout_gravity="center"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="验证"
+                android:id="@+id/button2"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+
 </LinearLayout>
 
