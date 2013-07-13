@@ -71,9 +71,9 @@
                 android:layout_gravity="center"/>
 
         <TextView
-                android:layout_width="42dp"
+                android:layout_width="82dp"
                 android:layout_height="48dp"
-                android:text="__"
+                android:text="____"
                 android:id="@+id/textView3"
                 android:textSize="40dp"
                 android:layout_gravity="center"/>
